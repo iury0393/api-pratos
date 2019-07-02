@@ -1,15 +1,15 @@
 //
-//  pratos_caloriasTests.swift
-//  pratos-caloriasTests
+//  prato_caloriaTests.swift
+//  prato-caloriaTests
 //
 //  Created by Guest User on 02/07/19.
 //  Copyright © 2019 Iury Vasconcelos. All rights reserved.
 //
 
 import XCTest
-@testable import pratos_calorias
+@testable import prato_caloria
 
-class pratos_caloriasTests: XCTestCase {
+class prato_caloriaTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

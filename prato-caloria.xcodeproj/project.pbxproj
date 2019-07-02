@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACDAC01B22CBB55A00A6F1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC01A22CBB55A00A6F1A1 /* AppDelegate.swift */; };
-		ACDAC01D22CBB55A00A6F1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC01C22CBB55A00A6F1A1 /* ViewController.swift */; };
-		ACDAC02022CBB55A00A6F1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC01E22CBB55A00A6F1A1 /* Main.storyboard */; };
-		ACDAC02222CBB55D00A6F1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC02122CBB55D00A6F1A1 /* Assets.xcassets */; };
-		ACDAC02522CBB55D00A6F1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC02322CBB55D00A6F1A1 /* LaunchScreen.storyboard */; };
-		ACDAC03022CBB55D00A6F1A1 /* pratos_caloriasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC02F22CBB55D00A6F1A1 /* pratos_caloriasTests.swift */; };
-		ACDAC03B22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC03A22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift */; };
+		ACDAC05522CBB96A00A6F1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC05422CBB96A00A6F1A1 /* AppDelegate.swift */; };
+		ACDAC05722CBB96A00A6F1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC05622CBB96A00A6F1A1 /* ViewController.swift */; };
+		ACDAC05A22CBB96A00A6F1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC05822CBB96A00A6F1A1 /* Main.storyboard */; };
+		ACDAC05C22CBB96B00A6F1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC05B22CBB96B00A6F1A1 /* Assets.xcassets */; };
+		ACDAC05F22CBB96B00A6F1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC05D22CBB96B00A6F1A1 /* LaunchScreen.storyboard */; };
+		ACDAC06A22CBB96C00A6F1A1 /* prato_caloriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC06922CBB96C00A6F1A1 /* prato_caloriaTests.swift */; };
+		ACDAC07522CBB96C00A6F1A1 /* prato_caloriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC07422CBB96C00A6F1A1 /* prato_caloriaUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ACDAC02C22CBB55D00A6F1A1 /* PBXContainerItemProxy */ = {
+		ACDAC06622CBB96C00A6F1A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ACDAC00F22CBB55A00A6F1A1 /* Project object */;
+			containerPortal = ACDAC04922CBB96A00A6F1A1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ACDAC01622CBB55A00A6F1A1;
-			remoteInfo = "pratos-calorias";
+			remoteGlobalIDString = ACDAC05022CBB96A00A6F1A1;
+			remoteInfo = "prato-caloria";
 		};
-		ACDAC03722CBB55D00A6F1A1 /* PBXContainerItemProxy */ = {
+		ACDAC07122CBB96C00A6F1A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ACDAC00F22CBB55A00A6F1A1 /* Project object */;
+			containerPortal = ACDAC04922CBB96A00A6F1A1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ACDAC01622CBB55A00A6F1A1;
-			remoteInfo = "pratos-calorias";
+			remoteGlobalIDString = ACDAC05022CBB96A00A6F1A1;
+			remoteInfo = "prato-caloria";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ACDAC01722CBB55A00A6F1A1 /* pratos-calorias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pratos-calorias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACDAC01A22CBB55A00A6F1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACDAC01C22CBB55A00A6F1A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACDAC01F22CBB55A00A6F1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ACDAC02122CBB55D00A6F1A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACDAC02422CBB55D00A6F1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ACDAC02622CBB55D00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACDAC02B22CBB55D00A6F1A1 /* pratos-caloriasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pratos-caloriasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACDAC02F22CBB55D00A6F1A1 /* pratos_caloriasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pratos_caloriasTests.swift; sourceTree = "<group>"; };
-		ACDAC03122CBB55D00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACDAC03622CBB55D00A6F1A1 /* pratos-caloriasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pratos-caloriasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACDAC03A22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pratos_caloriasUITests.swift; sourceTree = "<group>"; };
-		ACDAC03C22CBB55D00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDAC05122CBB96A00A6F1A1 /* prato-caloria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prato-caloria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDAC05422CBB96A00A6F1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDAC05622CBB96A00A6F1A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDAC05922CBB96A00A6F1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDAC05B22CBB96B00A6F1A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDAC05E22CBB96B00A6F1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDAC06022CBB96B00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDAC06522CBB96C00A6F1A1 /* prato-caloriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prato-caloriaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDAC06922CBB96C00A6F1A1 /* prato_caloriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prato_caloriaTests.swift; sourceTree = "<group>"; };
+		ACDAC06B22CBB96C00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDAC07022CBB96C00A6F1A1 /* prato-caloriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prato-caloriaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDAC07422CBB96C00A6F1A1 /* prato_caloriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prato_caloriaUITests.swift; sourceTree = "<group>"; };
+		ACDAC07622CBB96C00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ACDAC01422CBB55A00A6F1A1 /* Frameworks */ = {
+		ACDAC04E22CBB96A00A6F1A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDAC02822CBB55D00A6F1A1 /* Frameworks */ = {
+		ACDAC06222CBB96C00A6F1A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDAC03322CBB55D00A6F1A1 /* Frameworks */ = {
+		ACDAC06D22CBB96C00A6F1A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ACDAC00E22CBB55A00A6F1A1 = {
+		ACDAC04822CBB96A00A6F1A1 = {
 			isa = PBXGroup;
 			children = (
-				ACDAC01922CBB55A00A6F1A1 /* pratos-calorias */,
-				ACDAC02E22CBB55D00A6F1A1 /* pratos-caloriasTests */,
-				ACDAC03922CBB55D00A6F1A1 /* pratos-caloriasUITests */,
-				ACDAC01822CBB55A00A6F1A1 /* Products */,
+				ACDAC05322CBB96A00A6F1A1 /* prato-caloria */,
+				ACDAC06822CBB96C00A6F1A1 /* prato-caloriaTests */,
+				ACDAC07322CBB96C00A6F1A1 /* prato-caloriaUITests */,
+				ACDAC05222CBB96A00A6F1A1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ACDAC01822CBB55A00A6F1A1 /* Products */ = {
+		ACDAC05222CBB96A00A6F1A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACDAC01722CBB55A00A6F1A1 /* pratos-calorias.app */,
-				ACDAC02B22CBB55D00A6F1A1 /* pratos-caloriasTests.xctest */,
-				ACDAC03622CBB55D00A6F1A1 /* pratos-caloriasUITests.xctest */,
+				ACDAC05122CBB96A00A6F1A1 /* prato-caloria.app */,
+				ACDAC06522CBB96C00A6F1A1 /* prato-caloriaTests.xctest */,
+				ACDAC07022CBB96C00A6F1A1 /* prato-caloriaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACDAC01922CBB55A00A6F1A1 /* pratos-calorias */ = {
+		ACDAC05322CBB96A00A6F1A1 /* prato-caloria */ = {
 			isa = PBXGroup;
 			children = (
-				ACDAC01A22CBB55A00A6F1A1 /* AppDelegate.swift */,
-				ACDAC01C22CBB55A00A6F1A1 /* ViewController.swift */,
-				ACDAC01E22CBB55A00A6F1A1 /* Main.storyboard */,
-				ACDAC02122CBB55D00A6F1A1 /* Assets.xcassets */,
-				ACDAC02322CBB55D00A6F1A1 /* LaunchScreen.storyboard */,
-				ACDAC02622CBB55D00A6F1A1 /* Info.plist */,
+				ACDAC05422CBB96A00A6F1A1 /* AppDelegate.swift */,
+				ACDAC05622CBB96A00A6F1A1 /* ViewController.swift */,
+				ACDAC05822CBB96A00A6F1A1 /* Main.storyboard */,
+				ACDAC05B22CBB96B00A6F1A1 /* Assets.xcassets */,
+				ACDAC05D22CBB96B00A6F1A1 /* LaunchScreen.storyboard */,
+				ACDAC06022CBB96B00A6F1A1 /* Info.plist */,
 			);
-			path = "pratos-calorias";
+			path = "prato-caloria";
 			sourceTree = "<group>";
 		};
-		ACDAC02E22CBB55D00A6F1A1 /* pratos-caloriasTests */ = {
+		ACDAC06822CBB96C00A6F1A1 /* prato-caloriaTests */ = {
 			isa = PBXGroup;
 			children = (
-				ACDAC02F22CBB55D00A6F1A1 /* pratos_caloriasTests.swift */,
-				ACDAC03122CBB55D00A6F1A1 /* Info.plist */,
+				ACDAC06922CBB96C00A6F1A1 /* prato_caloriaTests.swift */,
+				ACDAC06B22CBB96C00A6F1A1 /* Info.plist */,
 			);
-			path = "pratos-caloriasTests";
+			path = "prato-caloriaTests";
 			sourceTree = "<group>";
 		};
-		ACDAC03922CBB55D00A6F1A1 /* pratos-caloriasUITests */ = {
+		ACDAC07322CBB96C00A6F1A1 /* prato-caloriaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				ACDAC03A22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift */,
-				ACDAC03C22CBB55D00A6F1A1 /* Info.plist */,
+				ACDAC07422CBB96C00A6F1A1 /* prato_caloriaUITests.swift */,
+				ACDAC07622CBB96C00A6F1A1 /* Info.plist */,
 			);
-			path = "pratos-caloriasUITests";
+			path = "prato-caloriaUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACDAC01622CBB55A00A6F1A1 /* pratos-calorias */ = {
+		ACDAC05022CBB96A00A6F1A1 /* prato-caloria */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACDAC03F22CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-calorias" */;
+			buildConfigurationList = ACDAC07922CBB96C00A6F1A1 /* Build configuration list for PBXNativeTarget "prato-caloria" */;
 			buildPhases = (
-				ACDAC01322CBB55A00A6F1A1 /* Sources */,
-				ACDAC01422CBB55A00A6F1A1 /* Frameworks */,
-				ACDAC01522CBB55A00A6F1A1 /* Resources */,
+				ACDAC04D22CBB96A00A6F1A1 /* Sources */,
+				ACDAC04E22CBB96A00A6F1A1 /* Frameworks */,
+				ACDAC04F22CBB96A00A6F1A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "pratos-calorias";
-			productName = "pratos-calorias";
-			productReference = ACDAC01722CBB55A00A6F1A1 /* pratos-calorias.app */;
+			name = "prato-caloria";
+			productName = "prato-caloria";
+			productReference = ACDAC05122CBB96A00A6F1A1 /* prato-caloria.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ACDAC02A22CBB55D00A6F1A1 /* pratos-caloriasTests */ = {
+		ACDAC06422CBB96C00A6F1A1 /* prato-caloriaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACDAC04222CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-caloriasTests" */;
+			buildConfigurationList = ACDAC07C22CBB96C00A6F1A1 /* Build configuration list for PBXNativeTarget "prato-caloriaTests" */;
 			buildPhases = (
-				ACDAC02722CBB55D00A6F1A1 /* Sources */,
-				ACDAC02822CBB55D00A6F1A1 /* Frameworks */,
-				ACDAC02922CBB55D00A6F1A1 /* Resources */,
+				ACDAC06122CBB96C00A6F1A1 /* Sources */,
+				ACDAC06222CBB96C00A6F1A1 /* Frameworks */,
+				ACDAC06322CBB96C00A6F1A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ACDAC02D22CBB55D00A6F1A1 /* PBXTargetDependency */,
+				ACDAC06722CBB96C00A6F1A1 /* PBXTargetDependency */,
 			);
-			name = "pratos-caloriasTests";
-			productName = "pratos-caloriasTests";
-			productReference = ACDAC02B22CBB55D00A6F1A1 /* pratos-caloriasTests.xctest */;
+			name = "prato-caloriaTests";
+			productName = "prato-caloriaTests";
+			productReference = ACDAC06522CBB96C00A6F1A1 /* prato-caloriaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ACDAC03522CBB55D00A6F1A1 /* pratos-caloriasUITests */ = {
+		ACDAC06F22CBB96C00A6F1A1 /* prato-caloriaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACDAC04522CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-caloriasUITests" */;
+			buildConfigurationList = ACDAC07F22CBB96C00A6F1A1 /* Build configuration list for PBXNativeTarget "prato-caloriaUITests" */;
 			buildPhases = (
-				ACDAC03222CBB55D00A6F1A1 /* Sources */,
-				ACDAC03322CBB55D00A6F1A1 /* Frameworks */,
-				ACDAC03422CBB55D00A6F1A1 /* Resources */,
+				ACDAC06C22CBB96C00A6F1A1 /* Sources */,
+				ACDAC06D22CBB96C00A6F1A1 /* Frameworks */,
+				ACDAC06E22CBB96C00A6F1A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ACDAC03822CBB55D00A6F1A1 /* PBXTargetDependency */,
+				ACDAC07222CBB96C00A6F1A1 /* PBXTargetDependency */,
 			);
-			name = "pratos-caloriasUITests";
-			productName = "pratos-caloriasUITests";
-			productReference = ACDAC03622CBB55D00A6F1A1 /* pratos-caloriasUITests.xctest */;
+			name = "prato-caloriaUITests";
+			productName = "prato-caloriaUITests";
+			productReference = ACDAC07022CBB96C00A6F1A1 /* prato-caloriaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ACDAC00F22CBB55A00A6F1A1 /* Project object */ = {
+		ACDAC04922CBB96A00A6F1A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Iury Vasconcelos";
 				TargetAttributes = {
-					ACDAC01622CBB55A00A6F1A1 = {
+					ACDAC05022CBB96A00A6F1A1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					ACDAC02A22CBB55D00A6F1A1 = {
+					ACDAC06422CBB96C00A6F1A1 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = ACDAC01622CBB55A00A6F1A1;
+						TestTargetID = ACDAC05022CBB96A00A6F1A1;
 					};
-					ACDAC03522CBB55D00A6F1A1 = {
+					ACDAC06F22CBB96C00A6F1A1 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = ACDAC01622CBB55A00A6F1A1;
+						TestTargetID = ACDAC05022CBB96A00A6F1A1;
 					};
 				};
 			};
-			buildConfigurationList = ACDAC01222CBB55A00A6F1A1 /* Build configuration list for PBXProject "pratos-calorias" */;
+			buildConfigurationList = ACDAC04C22CBB96A00A6F1A1 /* Build configuration list for PBXProject "prato-caloria" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = ACDAC00E22CBB55A00A6F1A1;
-			productRefGroup = ACDAC01822CBB55A00A6F1A1 /* Products */;
+			mainGroup = ACDAC04822CBB96A00A6F1A1;
+			productRefGroup = ACDAC05222CBB96A00A6F1A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACDAC01622CBB55A00A6F1A1 /* pratos-calorias */,
-				ACDAC02A22CBB55D00A6F1A1 /* pratos-caloriasTests */,
-				ACDAC03522CBB55D00A6F1A1 /* pratos-caloriasUITests */,
+				ACDAC05022CBB96A00A6F1A1 /* prato-caloria */,
+				ACDAC06422CBB96C00A6F1A1 /* prato-caloriaTests */,
+				ACDAC06F22CBB96C00A6F1A1 /* prato-caloriaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ACDAC01522CBB55A00A6F1A1 /* Resources */ = {
+		ACDAC04F22CBB96A00A6F1A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDAC02522CBB55D00A6F1A1 /* LaunchScreen.storyboard in Resources */,
-				ACDAC02222CBB55D00A6F1A1 /* Assets.xcassets in Resources */,
-				ACDAC02022CBB55A00A6F1A1 /* Main.storyboard in Resources */,
+				ACDAC05F22CBB96B00A6F1A1 /* LaunchScreen.storyboard in Resources */,
+				ACDAC05C22CBB96B00A6F1A1 /* Assets.xcassets in Resources */,
+				ACDAC05A22CBB96A00A6F1A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDAC02922CBB55D00A6F1A1 /* Resources */ = {
+		ACDAC06322CBB96C00A6F1A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDAC03422CBB55D00A6F1A1 /* Resources */ = {
+		ACDAC06E22CBB96C00A6F1A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ACDAC01322CBB55A00A6F1A1 /* Sources */ = {
+		ACDAC04D22CBB96A00A6F1A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDAC01D22CBB55A00A6F1A1 /* ViewController.swift in Sources */,
-				ACDAC01B22CBB55A00A6F1A1 /* AppDelegate.swift in Sources */,
+				ACDAC05722CBB96A00A6F1A1 /* ViewController.swift in Sources */,
+				ACDAC05522CBB96A00A6F1A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDAC02722CBB55D00A6F1A1 /* Sources */ = {
+		ACDAC06122CBB96C00A6F1A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDAC03022CBB55D00A6F1A1 /* pratos_caloriasTests.swift in Sources */,
+				ACDAC06A22CBB96C00A6F1A1 /* prato_caloriaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDAC03222CBB55D00A6F1A1 /* Sources */ = {
+		ACDAC06C22CBB96C00A6F1A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDAC03B22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift in Sources */,
+				ACDAC07522CBB96C00A6F1A1 /* prato_caloriaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ACDAC02D22CBB55D00A6F1A1 /* PBXTargetDependency */ = {
+		ACDAC06722CBB96C00A6F1A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ACDAC01622CBB55A00A6F1A1 /* pratos-calorias */;
-			targetProxy = ACDAC02C22CBB55D00A6F1A1 /* PBXContainerItemProxy */;
+			target = ACDAC05022CBB96A00A6F1A1 /* prato-caloria */;
+			targetProxy = ACDAC06622CBB96C00A6F1A1 /* PBXContainerItemProxy */;
 		};
-		ACDAC03822CBB55D00A6F1A1 /* PBXTargetDependency */ = {
+		ACDAC07222CBB96C00A6F1A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ACDAC01622CBB55A00A6F1A1 /* pratos-calorias */;
-			targetProxy = ACDAC03722CBB55D00A6F1A1 /* PBXContainerItemProxy */;
+			target = ACDAC05022CBB96A00A6F1A1 /* prato-caloria */;
+			targetProxy = ACDAC07122CBB96C00A6F1A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ACDAC01E22CBB55A00A6F1A1 /* Main.storyboard */ = {
+		ACDAC05822CBB96A00A6F1A1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACDAC01F22CBB55A00A6F1A1 /* Base */,
+				ACDAC05922CBB96A00A6F1A1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ACDAC02322CBB55D00A6F1A1 /* LaunchScreen.storyboard */ = {
+		ACDAC05D22CBB96B00A6F1A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACDAC02422CBB55D00A6F1A1 /* Base */,
+				ACDAC05E22CBB96B00A6F1A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ACDAC03D22CBB55D00A6F1A1 /* Debug */ = {
+		ACDAC07722CBB96C00A6F1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		ACDAC03E22CBB55D00A6F1A1 /* Release */ = {
+		ACDAC07822CBB96C00A6F1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,158 +428,158 @@
 			};
 			name = Release;
 		};
-		ACDAC04022CBB55D00A6F1A1 /* Debug */ = {
+		ACDAC07A22CBB96C00A6F1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "pratos-calorias/Info.plist";
+				INFOPLIST_FILE = "prato-caloria/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-calorias";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.iury.prato-caloria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ACDAC04122CBB55D00A6F1A1 /* Release */ = {
+		ACDAC07B22CBB96C00A6F1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "pratos-calorias/Info.plist";
+				INFOPLIST_FILE = "prato-caloria/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-calorias";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.iury.prato-caloria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		ACDAC04322CBB55D00A6F1A1 /* Debug */ = {
+		ACDAC07D22CBB96C00A6F1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "pratos-caloriasTests/Info.plist";
+				INFOPLIST_FILE = "prato-caloriaTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-caloriasTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.iury.prato-caloriaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pratos-calorias.app/pratos-calorias";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prato-caloria.app/prato-caloria";
 			};
 			name = Debug;
 		};
-		ACDAC04422CBB55D00A6F1A1 /* Release */ = {
+		ACDAC07E22CBB96C00A6F1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "pratos-caloriasTests/Info.plist";
+				INFOPLIST_FILE = "prato-caloriaTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-caloriasTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.iury.prato-caloriaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pratos-calorias.app/pratos-calorias";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prato-caloria.app/prato-caloria";
 			};
 			name = Release;
 		};
-		ACDAC04622CBB55D00A6F1A1 /* Debug */ = {
+		ACDAC08022CBB96C00A6F1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "pratos-caloriasUITests/Info.plist";
+				INFOPLIST_FILE = "prato-caloriaUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-caloriasUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.iury.prato-caloriaUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "pratos-calorias";
+				TEST_TARGET_NAME = "prato-caloria";
 			};
 			name = Debug;
 		};
-		ACDAC04722CBB55D00A6F1A1 /* Release */ = {
+		ACDAC08122CBB96C00A6F1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "pratos-caloriasUITests/Info.plist";
+				INFOPLIST_FILE = "prato-caloriaUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-caloriasUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.iury.prato-caloriaUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "pratos-calorias";
+				TEST_TARGET_NAME = "prato-caloria";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACDAC01222CBB55A00A6F1A1 /* Build configuration list for PBXProject "pratos-calorias" */ = {
+		ACDAC04C22CBB96A00A6F1A1 /* Build configuration list for PBXProject "prato-caloria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACDAC03D22CBB55D00A6F1A1 /* Debug */,
-				ACDAC03E22CBB55D00A6F1A1 /* Release */,
+				ACDAC07722CBB96C00A6F1A1 /* Debug */,
+				ACDAC07822CBB96C00A6F1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACDAC03F22CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-calorias" */ = {
+		ACDAC07922CBB96C00A6F1A1 /* Build configuration list for PBXNativeTarget "prato-caloria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACDAC04022CBB55D00A6F1A1 /* Debug */,
-				ACDAC04122CBB55D00A6F1A1 /* Release */,
+				ACDAC07A22CBB96C00A6F1A1 /* Debug */,
+				ACDAC07B22CBB96C00A6F1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACDAC04222CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-caloriasTests" */ = {
+		ACDAC07C22CBB96C00A6F1A1 /* Build configuration list for PBXNativeTarget "prato-caloriaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACDAC04322CBB55D00A6F1A1 /* Debug */,
-				ACDAC04422CBB55D00A6F1A1 /* Release */,
+				ACDAC07D22CBB96C00A6F1A1 /* Debug */,
+				ACDAC07E22CBB96C00A6F1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACDAC04522CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-caloriasUITests" */ = {
+		ACDAC07F22CBB96C00A6F1A1 /* Build configuration list for PBXNativeTarget "prato-caloriaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACDAC04622CBB55D00A6F1A1 /* Debug */,
-				ACDAC04722CBB55D00A6F1A1 /* Release */,
+				ACDAC08022CBB96C00A6F1A1 /* Debug */,
+				ACDAC08122CBB96C00A6F1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ACDAC00F22CBB55A00A6F1A1 /* Project object */;
+	rootObject = ACDAC04922CBB96A00A6F1A1 /* Project object */;
 }

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:pratos-calorias.xcodeproj">
+      location = "self:prato-caloria.xcodeproj">
    </FileRef>
 </Workspace>

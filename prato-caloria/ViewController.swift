@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  pratos-calorias
+//  prato-caloria
 //
 //  Created by Guest User on 02/07/19.
 //  Copyright © 2019 Iury Vasconcelos. All rights reserved.
