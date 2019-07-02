@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDAC01B22CBB55A00A6F1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC01A22CBB55A00A6F1A1 /* AppDelegate.swift */; };
+		ACDAC01D22CBB55A00A6F1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC01C22CBB55A00A6F1A1 /* ViewController.swift */; };
+		ACDAC02022CBB55A00A6F1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC01E22CBB55A00A6F1A1 /* Main.storyboard */; };
+		ACDAC02222CBB55D00A6F1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC02122CBB55D00A6F1A1 /* Assets.xcassets */; };
+		ACDAC02522CBB55D00A6F1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC02322CBB55D00A6F1A1 /* LaunchScreen.storyboard */; };
+		ACDAC03022CBB55D00A6F1A1 /* pratos_caloriasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC02F22CBB55D00A6F1A1 /* pratos_caloriasTests.swift */; };
+		ACDAC03B22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC03A22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDAC02C22CBB55D00A6F1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDAC00F22CBB55A00A6F1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDAC01622CBB55A00A6F1A1;
+			remoteInfo = "pratos-calorias";
+		};
+		ACDAC03722CBB55D00A6F1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDAC00F22CBB55A00A6F1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDAC01622CBB55A00A6F1A1;
+			remoteInfo = "pratos-calorias";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACDAC01722CBB55A00A6F1A1 /* pratos-calorias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pratos-calorias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDAC01A22CBB55A00A6F1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDAC01C22CBB55A00A6F1A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDAC01F22CBB55A00A6F1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDAC02122CBB55D00A6F1A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDAC02422CBB55D00A6F1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDAC02622CBB55D00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDAC02B22CBB55D00A6F1A1 /* pratos-caloriasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pratos-caloriasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDAC02F22CBB55D00A6F1A1 /* pratos_caloriasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pratos_caloriasTests.swift; sourceTree = "<group>"; };
+		ACDAC03122CBB55D00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDAC03622CBB55D00A6F1A1 /* pratos-caloriasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pratos-caloriasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDAC03A22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pratos_caloriasUITests.swift; sourceTree = "<group>"; };
+		ACDAC03C22CBB55D00A6F1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDAC01422CBB55A00A6F1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDAC02822CBB55D00A6F1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDAC03322CBB55D00A6F1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDAC00E22CBB55A00A6F1A1 = {
+			isa = PBXGroup;
+			children = (
+				ACDAC01922CBB55A00A6F1A1 /* pratos-calorias */,
+				ACDAC02E22CBB55D00A6F1A1 /* pratos-caloriasTests */,
+				ACDAC03922CBB55D00A6F1A1 /* pratos-caloriasUITests */,
+				ACDAC01822CBB55A00A6F1A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDAC01822CBB55A00A6F1A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAC01722CBB55A00A6F1A1 /* pratos-calorias.app */,
+				ACDAC02B22CBB55D00A6F1A1 /* pratos-caloriasTests.xctest */,
+				ACDAC03622CBB55D00A6F1A1 /* pratos-caloriasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDAC01922CBB55A00A6F1A1 /* pratos-calorias */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAC01A22CBB55A00A6F1A1 /* AppDelegate.swift */,
+				ACDAC01C22CBB55A00A6F1A1 /* ViewController.swift */,
+				ACDAC01E22CBB55A00A6F1A1 /* Main.storyboard */,
+				ACDAC02122CBB55D00A6F1A1 /* Assets.xcassets */,
+				ACDAC02322CBB55D00A6F1A1 /* LaunchScreen.storyboard */,
+				ACDAC02622CBB55D00A6F1A1 /* Info.plist */,
+			);
+			path = "pratos-calorias";
+			sourceTree = "<group>";
+		};
+		ACDAC02E22CBB55D00A6F1A1 /* pratos-caloriasTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAC02F22CBB55D00A6F1A1 /* pratos_caloriasTests.swift */,
+				ACDAC03122CBB55D00A6F1A1 /* Info.plist */,
+			);
+			path = "pratos-caloriasTests";
+			sourceTree = "<group>";
+		};
+		ACDAC03922CBB55D00A6F1A1 /* pratos-caloriasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAC03A22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift */,
+				ACDAC03C22CBB55D00A6F1A1 /* Info.plist */,
+			);
+			path = "pratos-caloriasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDAC01622CBB55A00A6F1A1 /* pratos-calorias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDAC03F22CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-calorias" */;
+			buildPhases = (
+				ACDAC01322CBB55A00A6F1A1 /* Sources */,
+				ACDAC01422CBB55A00A6F1A1 /* Frameworks */,
+				ACDAC01522CBB55A00A6F1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pratos-calorias";
+			productName = "pratos-calorias";
+			productReference = ACDAC01722CBB55A00A6F1A1 /* pratos-calorias.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDAC02A22CBB55D00A6F1A1 /* pratos-caloriasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDAC04222CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-caloriasTests" */;
+			buildPhases = (
+				ACDAC02722CBB55D00A6F1A1 /* Sources */,
+				ACDAC02822CBB55D00A6F1A1 /* Frameworks */,
+				ACDAC02922CBB55D00A6F1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDAC02D22CBB55D00A6F1A1 /* PBXTargetDependency */,
+			);
+			name = "pratos-caloriasTests";
+			productName = "pratos-caloriasTests";
+			productReference = ACDAC02B22CBB55D00A6F1A1 /* pratos-caloriasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDAC03522CBB55D00A6F1A1 /* pratos-caloriasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDAC04522CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-caloriasUITests" */;
+			buildPhases = (
+				ACDAC03222CBB55D00A6F1A1 /* Sources */,
+				ACDAC03322CBB55D00A6F1A1 /* Frameworks */,
+				ACDAC03422CBB55D00A6F1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDAC03822CBB55D00A6F1A1 /* PBXTargetDependency */,
+			);
+			name = "pratos-caloriasUITests";
+			productName = "pratos-caloriasUITests";
+			productReference = ACDAC03622CBB55D00A6F1A1 /* pratos-caloriasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDAC00F22CBB55A00A6F1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Iury Vasconcelos";
+				TargetAttributes = {
+					ACDAC01622CBB55A00A6F1A1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ACDAC02A22CBB55D00A6F1A1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACDAC01622CBB55A00A6F1A1;
+					};
+					ACDAC03522CBB55D00A6F1A1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACDAC01622CBB55A00A6F1A1;
+					};
+				};
+			};
+			buildConfigurationList = ACDAC01222CBB55A00A6F1A1 /* Build configuration list for PBXProject "pratos-calorias" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDAC00E22CBB55A00A6F1A1;
+			productRefGroup = ACDAC01822CBB55A00A6F1A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDAC01622CBB55A00A6F1A1 /* pratos-calorias */,
+				ACDAC02A22CBB55D00A6F1A1 /* pratos-caloriasTests */,
+				ACDAC03522CBB55D00A6F1A1 /* pratos-caloriasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDAC01522CBB55A00A6F1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDAC02522CBB55D00A6F1A1 /* LaunchScreen.storyboard in Resources */,
+				ACDAC02222CBB55D00A6F1A1 /* Assets.xcassets in Resources */,
+				ACDAC02022CBB55A00A6F1A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDAC02922CBB55D00A6F1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDAC03422CBB55D00A6F1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDAC01322CBB55A00A6F1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDAC01D22CBB55A00A6F1A1 /* ViewController.swift in Sources */,
+				ACDAC01B22CBB55A00A6F1A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDAC02722CBB55D00A6F1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDAC03022CBB55D00A6F1A1 /* pratos_caloriasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDAC03222CBB55D00A6F1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDAC03B22CBB55D00A6F1A1 /* pratos_caloriasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDAC02D22CBB55D00A6F1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDAC01622CBB55A00A6F1A1 /* pratos-calorias */;
+			targetProxy = ACDAC02C22CBB55D00A6F1A1 /* PBXContainerItemProxy */;
+		};
+		ACDAC03822CBB55D00A6F1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDAC01622CBB55A00A6F1A1 /* pratos-calorias */;
+			targetProxy = ACDAC03722CBB55D00A6F1A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACDAC01E22CBB55A00A6F1A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDAC01F22CBB55A00A6F1A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDAC02322CBB55D00A6F1A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDAC02422CBB55D00A6F1A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDAC03D22CBB55D00A6F1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDAC03E22CBB55D00A6F1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDAC04022CBB55D00A6F1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pratos-calorias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-calorias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDAC04122CBB55D00A6F1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pratos-calorias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-calorias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACDAC04322CBB55D00A6F1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pratos-caloriasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-caloriasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pratos-calorias.app/pratos-calorias";
+			};
+			name = Debug;
+		};
+		ACDAC04422CBB55D00A6F1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pratos-caloriasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-caloriasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pratos-calorias.app/pratos-calorias";
+			};
+			name = Release;
+		};
+		ACDAC04622CBB55D00A6F1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pratos-caloriasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-caloriasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pratos-calorias";
+			};
+			name = Debug;
+		};
+		ACDAC04722CBB55D00A6F1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pratos-caloriasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iury.vasconcelos.pratos-caloriasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pratos-calorias";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDAC01222CBB55A00A6F1A1 /* Build configuration list for PBXProject "pratos-calorias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDAC03D22CBB55D00A6F1A1 /* Debug */,
+				ACDAC03E22CBB55D00A6F1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDAC03F22CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-calorias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDAC04022CBB55D00A6F1A1 /* Debug */,
+				ACDAC04122CBB55D00A6F1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDAC04222CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-caloriasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDAC04322CBB55D00A6F1A1 /* Debug */,
+				ACDAC04422CBB55D00A6F1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDAC04522CBB55D00A6F1A1 /* Build configuration list for PBXNativeTarget "pratos-caloriasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDAC04622CBB55D00A6F1A1 /* Debug */,
+				ACDAC04722CBB55D00A6F1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDAC00F22CBB55A00A6F1A1 /* Project object */;
+}
