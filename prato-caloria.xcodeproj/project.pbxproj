@@ -11,6 +11,7 @@
 		AC758EBF22CCD0520015FD3A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EBE22CCD0520015FD3A /* Item.swift */; };
 		AC758EC122CCD1730015FD3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EC022CCD1730015FD3A /* ViewController.swift */; };
 		AC758EC322CCD2190015FD3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC758EC222CCD2190015FD3A /* Main.storyboard */; };
+		AC758EC722CD11830015FD3A /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EC622CD11830015FD3A /* MealsTableViewController.swift */; };
 		ACDAC05522CBB96A00A6F1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAC05422CBB96A00A6F1A1 /* AppDelegate.swift */; };
 		ACDAC05C22CBB96B00A6F1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC05B22CBB96B00A6F1A1 /* Assets.xcassets */; };
 		ACDAC05F22CBB96B00A6F1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAC05D22CBB96B00A6F1A1 /* LaunchScreen.storyboard */; };
@@ -40,6 +41,7 @@
 		AC758EBE22CCD0520015FD3A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AC758EC022CCD1730015FD3A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC758EC222CCD2190015FD3A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AC758EC622CD11830015FD3A /* MealsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
 		ACDAC05122CBB96A00A6F1A1 /* prato-caloria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prato-caloria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDAC05422CBB96A00A6F1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACDAC05B22CBB96B00A6F1A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				AC758EC022CCD1730015FD3A /* ViewController.swift */,
+				AC758EC622CD11830015FD3A /* MealsTableViewController.swift */,
 			);
 			path = viewsControllers;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC758EC722CD11830015FD3A /* MealsTableViewController.swift in Sources */,
 				AC758EBF22CCD0520015FD3A /* Item.swift in Sources */,
 				AC758EBD22CCCFD90015FD3A /* Meal.swift in Sources */,
 				AC758EC122CCD1730015FD3A /* ViewController.swift in Sources */,
