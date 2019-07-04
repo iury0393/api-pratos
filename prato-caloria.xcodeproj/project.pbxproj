@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A5D876522CE5D5D003A74C6 /* AddAMealDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D876422CE5D5C003A74C6 /* AddAMealDelegate.swift */; };
 		AC758EBD22CCCFD90015FD3A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EBC22CCCFD90015FD3A /* Meal.swift */; };
 		AC758EBF22CCD0520015FD3A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EBE22CCD0520015FD3A /* Item.swift */; };
 		AC758EC122CCD1730015FD3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EC022CCD1730015FD3A /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A5D876422CE5D5C003A74C6 /* AddAMealDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAMealDelegate.swift; sourceTree = "<group>"; };
 		AC758EBC22CCCFD90015FD3A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		AC758EBE22CCD0520015FD3A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AC758EC022CCD1730015FD3A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				AC758EBC22CCCFD90015FD3A /* Meal.swift */,
 				AC758EBE22CCD0520015FD3A /* Item.swift */,
+				8A5D876422CE5D5C003A74C6 /* AddAMealDelegate.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				AC758EBD22CCCFD90015FD3A /* Meal.swift in Sources */,
 				AC758EC122CCD1730015FD3A /* ViewController.swift in Sources */,
 				ACDAC05522CBB96A00A6F1A1 /* AppDelegate.swift in Sources */,
+				8A5D876522CE5D5D003A74C6 /* AddAMealDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
