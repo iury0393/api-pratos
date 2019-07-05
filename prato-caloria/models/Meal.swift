@@ -11,11 +11,12 @@ import Foundation
 class Meal {
     let name:String
     let happiness:Int
-    let items = Array<Item>()
+    let items:Array<Item>
     
-    init(name:String, happiness:Int) {
+    init(name:String, happiness:Int, items: Array<Item> = []) {
         self.name = name
         self.happiness = happiness
+        self.items = items
     }
     
     func allCalories() -> Double {

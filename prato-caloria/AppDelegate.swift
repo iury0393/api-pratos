@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  prato-caloria
 //
-//  Created by Guest User on 02/07/19.
+//  Created by Iury Vasconcelos on 02/07/19.
 //  Copyright © 2019 Iury Vasconcelos. All rights reserved.
 //
 
