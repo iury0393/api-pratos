@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8A5D876522CE5D5D003A74C6 /* AddAMealDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D876422CE5D5C003A74C6 /* AddAMealDelegate.swift */; };
+		8A6F277222D3A52800544423 /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F277022D3A52800544423 /* NewItemViewController.xib */; };
+		8A6F277422D3A57000544423 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F277322D3A57000544423 /* NewItemViewController.swift */; };
+		8A6F277622D4BF5D00544423 /* AddAnItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F277522D4BF5D00544423 /* AddAnItemDelegate.swift */; };
 		AC758EBD22CCCFD90015FD3A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EBC22CCCFD90015FD3A /* Meal.swift */; };
 		AC758EBF22CCD0520015FD3A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EBE22CCD0520015FD3A /* Item.swift */; };
 		AC758EC122CCD1730015FD3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EC022CCD1730015FD3A /* ViewController.swift */; };
@@ -39,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		8A5D876422CE5D5C003A74C6 /* AddAMealDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAMealDelegate.swift; sourceTree = "<group>"; };
+		8A6F277022D3A52800544423 /* NewItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
+		8A6F277322D3A57000544423 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		8A6F277522D4BF5D00544423 /* AddAnItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnItemDelegate.swift; sourceTree = "<group>"; };
 		AC758EBC22CCCFD90015FD3A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		AC758EBE22CCD0520015FD3A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AC758EC022CCD1730015FD3A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				AC758EC222CCD2190015FD3A /* Main.storyboard */,
+				8A6F277022D3A52800544423 /* NewItemViewController.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 				AC758EBC22CCCFD90015FD3A /* Meal.swift */,
 				AC758EBE22CCD0520015FD3A /* Item.swift */,
 				8A5D876422CE5D5C003A74C6 /* AddAMealDelegate.swift */,
+				8A6F277522D4BF5D00544423 /* AddAnItemDelegate.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -103,6 +111,7 @@
 		AC758EBB22CCCFAF0015FD3A /* viewsControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8A6F277322D3A57000544423 /* NewItemViewController.swift */,
 				AC758EC022CCD1730015FD3A /* ViewController.swift */,
 				AC758EC622CD11830015FD3A /* MealsTableViewController.swift */,
 			);
@@ -267,6 +276,7 @@
 			files = (
 				AC758EC322CCD2190015FD3A /* Main.storyboard in Resources */,
 				ACDAC05F22CBB96B00A6F1A1 /* LaunchScreen.storyboard in Resources */,
+				8A6F277222D3A52800544423 /* NewItemViewController.xib in Resources */,
 				ACDAC05C22CBB96B00A6F1A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,8 +306,10 @@
 				AC758EBF22CCD0520015FD3A /* Item.swift in Sources */,
 				AC758EBD22CCCFD90015FD3A /* Meal.swift in Sources */,
 				AC758EC122CCD1730015FD3A /* ViewController.swift in Sources */,
+				8A6F277622D4BF5D00544423 /* AddAnItemDelegate.swift in Sources */,
 				ACDAC05522CBB96A00A6F1A1 /* AppDelegate.swift in Sources */,
 				8A5D876522CE5D5D003A74C6 /* AddAMealDelegate.swift in Sources */,
+				8A6F277422D3A57000544423 /* NewItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
