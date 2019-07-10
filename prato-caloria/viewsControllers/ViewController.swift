@@ -32,10 +32,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if let table = tableView {
             table.reloadData()
         } else {
-            let alert = UIAlertController(title: "Sorry", message: "Unable to update the table", preferredStyle: UIAlertController.Style.alert)
-            let ok = UIAlertAction(title: "Understood", style: UIAlertAction.Style.cancel, handler: nil)
-            alert.addAction(ok)
-            present(alert, animated: true, completion: nil)
+            Alert(controller: self).show(message: "Unable to update items table")
         }
     }
     
@@ -49,6 +46,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let newItem = NewItemViewController(delegate: self)
         if let navigation = navigationController {
             navigation.pushViewController(newItem, animated: true)
+        } else {
+            Alert(controller: self).show()
         }
     }
     
@@ -80,31 +79,44 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
+    func convertToInt(_ text:String?) -> Int? {
+        if let number = text {
+            return Int(number)
+        }
+        return nil
+    }
+    
+    func getMealFromForm() -> Meal? {
+        
+        if let name = nameField?.text {
+            if let happiness = convertToInt(happinessField?.text) {
+                
+                let meal = Meal(name: name, happiness: happiness, items: selected)
+                
+                print("eaten \(meal.name) with happiness \(meal.happiness) with \(meal.items)!")
+                
+                return meal
+            }
+        }
+        
+        return nil
+    }
+    
     
     
     @IBAction func add() {
-        if(nameField == nil || happinessField == nil) {
-            return
-        }
-        
-        let name:String = nameField!.text!
-        
-        if let happiness = Int(happinessField!.text!) {
-            let meal = Meal(name: name, happiness: happiness, items: selected)
-            
-            print("eaten \(meal.name) with happiness \(meal.happiness) with \(meal.items)!")
-            
-            if(delegate == nil) {
+        if let meal = getMealFromForm() {
+            if let meals = delegate {
+                meals.add(meal)
+                if let navigation = navigationController {
+                    navigation.popViewController(animated: true)
+                } else {
+                    Alert(controller: self).show(message: "Unable to go back, but the meal was added.")
+                }
                 return
             }
-            
-            delegate!.add(meal)
-            
-            if let navigation = navigationController {
-                navigation.popViewController(animated: true)
-            }
-            
         }
+        Alert(controller: self).show()
     }
     
 }

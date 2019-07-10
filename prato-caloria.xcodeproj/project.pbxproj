@@ -11,6 +11,7 @@
 		8A6F277222D3A52800544423 /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F277022D3A52800544423 /* NewItemViewController.xib */; };
 		8A6F277422D3A57000544423 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F277322D3A57000544423 /* NewItemViewController.swift */; };
 		8A6F277622D4BF5D00544423 /* AddAnItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F277522D4BF5D00544423 /* AddAnItemDelegate.swift */; };
+		8A6F277822D60E6500544423 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6F277722D60E6500544423 /* Alert.swift */; };
 		AC758EBD22CCCFD90015FD3A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EBC22CCCFD90015FD3A /* Meal.swift */; };
 		AC758EBF22CCD0520015FD3A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EBE22CCD0520015FD3A /* Item.swift */; };
 		AC758EC122CCD1730015FD3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC758EC022CCD1730015FD3A /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		8A6F277022D3A52800544423 /* NewItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
 		8A6F277322D3A57000544423 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		8A6F277522D4BF5D00544423 /* AddAnItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnItemDelegate.swift; sourceTree = "<group>"; };
+		8A6F277722D60E6500544423 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		AC758EBC22CCCFD90015FD3A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		AC758EBE22CCD0520015FD3A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AC758EC022CCD1730015FD3A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				AC758EC222CCD2190015FD3A /* Main.storyboard */,
 				8A6F277022D3A52800544423 /* NewItemViewController.xib */,
+				8A6F277722D60E6500544423 /* Alert.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6F277822D60E6500544423 /* Alert.swift in Sources */,
 				AC758EC722CD11830015FD3A /* MealsTableViewController.swift in Sources */,
 				AC758EBF22CCD0520015FD3A /* Item.swift in Sources */,
 				AC758EBD22CCCFD90015FD3A /* Meal.swift in Sources */,
