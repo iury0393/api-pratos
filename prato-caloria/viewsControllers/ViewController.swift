@@ -31,6 +31,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         items.append(item)
         if let table = tableView {
             table.reloadData()
+        } else {
+            let alert = UIAlertController(title: "Sorry", message: "Unable to update the table", preferredStyle: UIAlertController.Style.alert)
+            let ok = UIAlertAction(title: "Understood", style: UIAlertAction.Style.cancel, handler: nil)
+            alert.addAction(ok)
+            present(alert, animated: true, completion: nil)
         }
     }
     
