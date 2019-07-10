@@ -9,8 +9,9 @@
 import UIKit
 
 class MealsTableViewController : UITableViewController, AddAMealDelegate {
-    var meals = [Meal(name: "Eggplant Brownie", happiness: 5),
-                 Meal(name: "Zucchini Muffin", happiness: 3)]
+    var meals = [Meal(name: "Eggplant Brownie", happiness: 4),
+                 Meal(name: "Zucchini Muffin", happiness: 3),
+                 Meal(name: "Lara's Cake", happiness: 5)]
     
     func add(_ meal:Meal) {
         meals.append(meal)
@@ -44,16 +45,15 @@ class MealsTableViewController : UITableViewController, AddAMealDelegate {
     @objc func showDetails(recognizer: UILongPressGestureRecognizer) {
         if(recognizer.state == UIGestureRecognizer.State.began) {
             let cell = recognizer.view as! UITableViewCell
+            
             if let indexPath = tableView.indexPath(for: cell) {
                 let row = indexPath.row
                 let meal = meals[row]
                 
-                let details = UIAlertController(title: meal.name, message: meal.details(), preferredStyle: UIAlertController.Style.alert)
-                
-                let ok = UIAlertAction(title: "Ok", style: UIAlertAction.Style.cancel, handler: nil)
-                details.addAction(ok)
-                
-                present(details, animated: true, completion: nil)
+                RemoveMealController(controller: self).show(meal, handler: { action in
+                    self.meals.remove(at: row)
+                    self.tableView.reloadData()
+                })
             }
         }
     }
