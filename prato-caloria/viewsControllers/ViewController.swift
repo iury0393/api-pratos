@@ -15,20 +15,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var delegate : AddAMealDelegate?
     var selected = Array<Item>()
     
-    var items = [
-        Item(name: "Eggplant", calories: 10),
-        Item(name: "Brownie", calories: 10),
-        Item(name: "Zucchini", calories: 10),
-        Item(name: "Muffin", calories:10),
-        Item(name: "Coconut oil", calories: 500),
-        Item(name: "Chocolate frosting", calories: 1000),
-        Item(name: "Chocolate chip", calories: 1000)
-    ]
+    var items = Array<Item>()
     
     @IBOutlet var tableView : UITableView?
     
     func add(_ item: Item) {
         items.append(item)
+        Dao().save(items)
         if let table = tableView {
             table.reloadData()
         } else {
@@ -39,6 +32,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         let newItemButton = UIBarButtonItem(title: "New Item", style: UIBarButtonItem.Style.plain, target: self, action: #selector(showNewItem))
         navigationItem.rightBarButtonItem = newItemButton
+        self.items = Dao().load()
     }
     
     @objc func showNewItem() {

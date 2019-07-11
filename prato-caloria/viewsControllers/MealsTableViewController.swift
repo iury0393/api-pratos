@@ -9,12 +9,16 @@
 import UIKit
 
 class MealsTableViewController : UITableViewController, AddAMealDelegate {
-    var meals = [Meal(name: "Eggplant Brownie", happiness: 4),
-                 Meal(name: "Zucchini Muffin", happiness: 3),
-                 Meal(name: "Lara's Cake", happiness: 5)]
+    var meals = Array<Meal>()
+    
+    override func viewDidLoad() {
+        self.meals = Dao().load()
+    }
     
     func add(_ meal:Meal) {
         meals.append(meal)
+        print(Dao().getDocumentsDirectory())
+        Dao().save(meals)
         tableView.reloadData()
     }
     
@@ -52,6 +56,7 @@ class MealsTableViewController : UITableViewController, AddAMealDelegate {
                 
                 RemoveMealController(controller: self).show(meal, handler: { action in
                     self.meals.remove(at: row)
+                    Dao().save(self.meals)
                     self.tableView.reloadData()
                 })
             }
